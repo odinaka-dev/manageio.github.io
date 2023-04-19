@@ -156,7 +156,7 @@ nav ul li a.active,a:hover {
         transition: 2s;
     }
     nav ul.show {
-        left: 0px;
+        left: 0;
     }
 }
 @media screen and (max-width: 375px){
