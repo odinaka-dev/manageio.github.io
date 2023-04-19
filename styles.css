@@ -1,0 +1,429 @@
+* {
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+}
+body {
+    font-size: 18px;
+    font-family: system-ui;
+}
+nav {
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+}
+label.logo img {
+    /* font-family: system-ui;
+    font-size: 25px;
+    font-weight: normal; */
+    margin-top: 10px;
+}
+nav ul {
+    float: right;
+    display: inline-flex;
+    align-self: center;
+    margin-right: 40px;
+}
+nav ul li {
+    margin-right: 30px;
+}
+nav ul li a {
+    color: white;
+    text-transform: capitalize;
+}
+nav ul li a.active,a:hover {
+    color: rgb(146, 142, 175);
+    border-bottom: 1px solid rgb(146, 142, 175);
+    transition: .5s;
+}
+.icon-image {
+    color: white;
+    line-height: 80px;
+    margin-right: 40px;
+    float: right;
+    cursor: pointer;
+    display: none;
+}
+.navigation-image img {
+    display: none;
+}
+#main {
+    text-align: center;
+    margin-top: 30px;
+}
+#main .welcome img {
+    width: 100%;
+}
+.welcome-text button {
+    margin-top: 18px;
+}
+.btn {
+    background-color: rgb(56, 53, 77);
+    padding: 9px 18px;
+    color: white;
+    font-weight: lighter;
+    outline: none;
+    border-radius: 5px;
+    border: 0px none;
+}
+.get{
+    margin-left: 8px;
+}
+/* section{
+    background: url(anonymous-hacker-working_bGllZ2mUmZqaraWkpJRmaGtrrWxrbQ.jpg) no-repeat;
+    background: cover;
+    height: calc(100vh - 80px);
+} */
+@media screen and (max-width: 1440px){
+    nav ul li a {
+        color: hsl(233, 12%, 13%);
+        font-weight: bold;
+    }
+}
+@media screen and (max-width: 960px){
+    label.logo {
+        font-family: system-ui;
+        font-size: 35px;
+        padding: 0px 50px;
+        font-weight: normal;
+    }
+    nav ul {
+        float: right;
+        display: inline-flex;
+        align-self: center;
+        margin-right: 40px;
+        padding-top: 15px;
+        font-size: 16px;
+    }
+    nav ul li a {
+        color: hsl(233, 12%, 13%);
+        font-weight: bold;
+    }
+}
+@media screen and (max-width: 768px){
+    label.logo {
+        font-family: system-ui;
+        font-size: 35px;
+        padding: 0px 50px;
+        font-weight: normal;
+    }
+    nav ul {
+        font-size: 18px;
+        position: fixed;
+        width: 80%;
+        /* margin: 0% 3%; */
+        padding-bottom: 6%;
+        /* height: 100vh; */
+        background-color: #2f3640;
+        top: 67px;
+        left: -110%;
+        transition: all .5s;
+        text-align: center;
+        display: block;
+        border-radius: 20px;
+    }
+    nav ul li {
+        margin-top: 50px;
+    }
+    nav ul li a {
+        color: white;
+        font-weight: 300;
+    }
+    nav ul li a:hover {
+        color: rgb(146, 142, 175);
+        border-bottom: 1px solid rgb(146, 142, 175);
+        transition: .5s;
+    }
+    .icon-image {
+        color: white;
+        line-height: 80px;
+        margin-top: 20px;
+        margin-right: 20px;
+        float: right;
+        cursor: pointer;
+        display: block;
+    }
+    .navigation-image img {
+        display: inline-block;
+        width: 10%;
+        margin-top: 10%;
+        margin-left: 7%;
+        /* margin-right: 10px; */
+        opacity: 0.5;
+    }
+    .navigation-image img:hover {
+        transform: rotateZ(15deg);
+        transition: 2s;
+    }
+    nav ul.show {
+        left: 20px;
+    }
+}
+@media screen and (max-width: 375px){
+    label.logo {
+        font-family: system-ui;
+        font-size: 25px;
+        padding: 0px 30px;
+        font-weight: normal;
+    }
+    .icon-image {
+        color: white;
+        line-height: 80px;
+        margin-top: 10px;
+        margin-right: 10px;
+        float: right;
+        cursor: pointer;
+        display: block;;
+    }
+    nav ul {
+        font-size: 18px;
+        position: fixed;
+        width: 50%;
+        height: 100vh;
+        background-color: #2f3640;
+        top: 51px;
+        left: -110%;
+        transition: all .5s;
+        text-align: center;
+        display: block;
+    }
+    .MaNg1 p, .MaNg3 p, .MaNg2 p {
+        font-size: 16px;
+        color:  hsl(227, 12%, 61%);
+        line-height: 1.9;
+        margin-top: 5%;
+    }
+    /* nav ul li a {
+        
+    } */
+}
+
+/* the designs for the main body begins from here on */
+.ASDF img {
+    width: 100%;
+    margin-top: 3%;
+    background-image: url(images/bg-tablet-pattern.svg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.ASDF-text h1  {
+    color: hsl(228, 39%, 23%);
+    font-size: 45px;
+    margin: 4% 0%;
+}
+.ASDF-text p {
+    font-size: 20px;
+    color:  hsl(227, 12%, 61%);
+    line-height: 1.7;
+}
+.ASDF-text h5 {
+    font-size: 18px;
+    display: inline-block;
+    color: white;
+    background-color: hsl(12, 88%, 59%);
+    padding: 2% 8%;
+    margin-top: 5%;
+    border: 0px solid transparent;
+    border-radius: 50px;
+}
+.ASDF-text h5:hover {
+    background: transparent;
+    color: hsl(12, 88%, 59%);
+    border: 1px solid hsl(12, 88%, 59%);
+    transition: .5s;
+}
+main {
+    text-align: center;
+    margin: 35% 0%;
+}
+main h1 {
+    color: hsl(228, 39%, 23%);
+    font-size: 45px;
+    margin: 4% 0%; 
+}
+main .pint {
+    font-size: 20px;
+    color:  hsl(227, 12%, 61%);
+    line-height: 1.7;
+    margin-bottom: 10%;
+}
+/* .MaNg1 starts from  here  */
+.MaNg1 {
+    margin-top: 15%;
+}
+.MaNg1 header {
+    color: hsl(228, 39%, 23%);
+    font-weight: bold;
+    font-size: 20px;
+    background-color: hsl(13, 100%, 96%);
+    padding: 2% 3%;
+}
+.MaNg1 header span {
+    background-color: hsl(12, 88%, 59%);
+    color: white;
+    padding: 1% 4%;
+    border-radius: 50px;
+}
+.MaNg1 p {
+    font-size: 19px;
+    color:  hsl(227, 12%, 61%);
+    line-height: 1.6;
+    margin-top: 5%;
+}
+/* .MaNg2 sttarts from here  */
+.MaNg2 {
+    margin-top: 15%;
+}
+.MaNg2 header {
+    color: hsl(228, 39%, 23%);
+    font-weight: bold;
+    font-size: 20px;
+    background-color: hsl(13, 100%, 96%);
+    padding: 2% 3%;
+}
+.MaNg2 header span {
+    background-color: hsl(12, 88%, 59%);
+    color: white;
+    padding: 1% 4%;
+    border-radius: 50px;
+}
+.MaNg2 p {
+    font-size: 19px;
+    color:  hsl(227, 12%, 61%);
+    line-height: 1.6;
+    margin-top: 5%;
+}
+/* .MaNg3 sttarts from here  */
+.MaNg3 {
+    margin-top: 15%;
+}
+.MaNg3 header {
+    color: hsl(228, 39%, 23%);
+    font-weight: bold;
+    font-size: 20px;
+    background-color: hsl(13, 100%, 96%);
+    padding: 2% 3%;
+}
+.MaNg3 header span {
+    background-color: hsl(12, 88%, 59%);
+    color: white;
+    padding: 1% 4%;
+    border-radius: 50px;
+}
+.MaNg3 p {
+    font-size: 19px;
+    color:  hsl(227, 12%, 61%);
+    line-height: 1.6;
+    margin-top: 5%;
+}
+/* the carouel prectices begins from here  on */
+.part {
+    text-align: center;
+}
+.part h1  {
+    color: hsl(228, 39%, 23%);
+    font-size: 40px;
+    margin-bottom: 14%;
+}
+.part h3 {
+    color: hsl(228, 39%, 23%);
+    font-size: 30px;
+    margin: 7% 0%;
+}
+.part p {
+    font-size: 20px;
+    color:  hsl(227, 12%, 61%);
+    line-height: 1.7;
+}
+.part h5 {
+    font-size: 18px;
+    display: inline-block;
+    color: white;
+    background-color: hsl(12, 88%, 59%);
+    padding: 3% 8%;
+    margin-top: 15%;
+    border: 0px solid transparent;
+    border-radius: 50px;
+}
+.part h5:hover {
+    background-color: transparent;
+    color: hsl(12, 88%, 59%);
+    border: 1px solid hsl(12, 88%, 59%);
+    transition: .5s;
+}
+.side-view {
+    padding: 10%;
+    margin-top: 20%;
+    text-align: center;
+    color: white;
+    background-color: hsl(12, 88%, 59%);
+    background-image: url(images/bg-simplify-section-desktop.svg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 400%;
+}
+.side-view h1  {
+    font-size: 48px;
+    font-weight: 500;
+}
+.side-view  h5 {
+    font-size: 21px;
+    display: inline-block;
+    color: hsl(12, 88%, 59%);
+    background-color: white;
+    padding: 4% 8%;
+    margin-top: 15%;
+    border: 0px solid transparent;
+    border-radius: 50px;
+}
+.side-view h5:hover {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    transition: .5s;
+}
+/* footer begins from here on  */
+footer {
+    color: white;
+    background-color: hsl(233, 12%, 13%);
+    padding: 10% 0%;
+}
+.YYTgh {
+    text-align: center;
+}
+.YYTgh input {
+    width: 50%;
+    font-size: 17px;
+    padding: 3% 9%;
+    border: none;
+    border-radius: 50px;
+}
+.YYTgh label {
+    color: white;
+    background-color: hsl(12, 88%, 59%);
+    padding: 3% 8%;
+    border-radius: 50px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.YYTgh label:hover {
+    color: hsl(12, 88%, 59%);
+    border: 1px solid hsl(12, 88%, 59%);
+    background-color: transparent;
+    transition: .5s;
+}
+.YYGRH {
+    margin-top: 5%;
+}
+.YYGRH .first-sub {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: white;
+}
+.first-sub ol li {
+    margin: 9% 0%;
+    font-size: 20px;
+}
+
+

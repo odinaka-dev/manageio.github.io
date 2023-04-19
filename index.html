@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive design and javascript designing layout system</title>
+
+    <!-- the css and font styles link begins from here -->
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <script>
+        // inline javascript codes for the navigation bar can be accessed here, the use of jQuery
+        $(document).ready(function(){
+            $('.icon-image').click(function(){
+                $('ul').toggleClass('show');
+            });
+        });
+
+    </script>
+</head>
+<body>
+    <nav>
+        <label class="logo"><img src="images/logo.svg" alt=""></label>
+        <label id="icon">
+            <img class="icon-image" src="images/icon-hamburger.svg" alt="icon-hamburger">
+        </label>
+        <ul>
+            <li>
+                <a class="active" href="#">pricing</a>
+            </li>
+            <li>
+                <a href="#">products</a>
+            </li>
+            <li>
+                <a href="#">About Us</a>
+            </li>
+            <li>
+                <a href="#">Careers</a>
+            </li>
+            <li>
+                <a href="#">community</a>
+            </li>
+        </ul>
+    </nav>
+ 
+    <section id="main">
+        <div class="ASDF">
+            <img src="images/illustration-intro.svg" alt="">
+        </div>
+        <div class="ASDF-text">
+            <h1>Bring everyone together to build better products.</h1>
+            <p>
+                manage makes it simple for software <br>
+                teams to plan day-to-day tasks while <br> 
+                keeping the larger team goals in view.
+            </p>
+            <h5>Get started</h5>
+        </div>
+    </section>
+    
+    <main>
+        <h1>What's different about Manage?</h1>
+        <p class="pint">
+            Manage provides all the functionality your <br> 
+            team needs, without the complexity. Our <br>
+            software is talor-made for medium digital <br>
+            product teams.
+        </p>
+        <article>
+            <div class="MaNg1">
+                <header><span>01</span> Track company-wide progress</header>
+                <div class="first a">
+                    <p>
+                        See how your day-to-day tasks fit into the wider <br>
+                        vision. Go from tracking progress at the milestone <br>
+                        level all the way down to the smallest of details. <br>
+                        Never lose sight of the bigger pictures again.
+                    </p>
+                </div>
+            </div>
+            <div class="MaNg2">
+                <header><span>02</span> Advanced built-in reports</header>
+                <div class="first b">
+                    <p>
+                        set internal delivery estimates and track progress <br>
+                        forward company goals. Our customizable <br>
+                        dashboard helps you build  the reports you <br>
+                        need to keep key stakeholders informed.
+                    </p>
+                </div>
+            </div>
+            <div class="MaNg3">
+                <header><span>03</span> Everything you need in one place</header>
+                <div class="first c">
+                    <p>
+                        stop jumping from one service to another to <br>
+                        communicate, store files, track tasks and share <br>
+                        documents. Manage offers an all-in-one team <br>
+                        productivity solution
+                    </p>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <div class="part">
+        <h1>What they've said</h1>
+        <img src="images/avatar-ali.png" alt="ali-smiling">
+        <h3>Ali Bravo</h3>
+        <p>
+            We have been able to  cancel so many <br>
+            other subscriptions since using manage <br>
+            There is no more cross-channel confusion <br>
+            and everyone is much more focused.
+        </p>
+
+        <h5>Get started</h5>
+    </div>
+
+    <div class="side-view">
+        <h1>Simplify how your team works today.</h1>
+        <h5>Get started</h5>
+    </div>
+    <footer>
+        <div class="YYTgh">
+            <input type="text" name="text" id="text" placeholder="Updates in your inbox...">
+            <label for="update">Go</label>
+        </div>
+        <div class="YYGRH">
+            <div class="first-sub">
+               <ol>
+                <li>Home</li>
+                <li>Pricing</li>
+                <li>products</li>
+                <li>About Us</li>
+               </ol> 
+               <ol>
+                <li>Careers</li>
+                <li>Community</li>
+                <li>Privacy Policy</li>
+               </ol>
+            </div>
+        </div>
+            <div class="navigation-image">
+                <img src="images/icon-facebook.svg" alt="icon-facebook">
+                <img src="images/icon-youtube.svg" alt="icon-youtube">
+                <img src="images/icon-instagram.svg" alt="icon-instagram">
+                <img src="images/icon-twitter.svg" alt="icon-twitter">
+                <img src="images/icon-pinterest.svg" alt="icon-pinterest">
+            </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
