@@ -196,6 +196,9 @@ nav ul li a.active,a:hover {
     /* nav ul li a {
         
     } */
+    nav ul{
+        left: 0;
+        }
 }
 
 /* the designs for the main body begins from here on */
